@@ -1,5 +1,5 @@
 using Equivalence
-using Test
+using Compat.Test
 
 @testset "Equivalence.jl" begin
     # Write your own tests here.
