@@ -1,17 +1,17 @@
-# Equivalence
+# Equality
 
-[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://invenia.github.io/Equivalence.jl/stable)
-[![Latest](https://img.shields.io/badge/docs-latest-blue.svg)](https://invenia.github.io/Equivalence.jl/latest)
-[![Build Status](https://travis-ci.com/invenia/Equivalence.jl.svg?branch=master)](https://travis-ci.com/invenia/Equivalence.jl)
-[![Build Status](https://ci.appveyor.com/api/projects/status/github/invenia/Equivalence.jl?svg=true)](https://ci.appveyor.com/project/invenia/Equivalence-jl)
-[![CodeCov](https://codecov.io/gh/invenia/Equivalence.jl/branch/master/graph/badge.svg)](https://codecov.io/gh/invenia/Equivalence.jl)
+[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://invenia.github.io/Equality.jl/stable)
+[![Latest](https://img.shields.io/badge/docs-latest-blue.svg)](https://invenia.github.io/Equality.jl/latest)
+[![Build Status](https://travis-ci.com/invenia/Equality.jl.svg?branch=master)](https://travis-ci.com/invenia/Equality.jl)
+[![Build Status](https://ci.appveyor.com/api/projects/status/github/invenia/Equality.jl?svg=true)](https://ci.appveyor.com/project/invenia/Equality-jl)
+[![CodeCov](https://codecov.io/gh/invenia/Equality.jl/branch/master/graph/badge.svg)](https://codecov.io/gh/invenia/Equality.jl)
 
 This package defines generic isequivalent functions to compare all elements of an `AbstractArray` and/or `AbstractDataFrame`
 
 ## Installation
 
 ```julia
-Pkg.add("Equivalence")
+Pkg.add("Equality")
 ```
 
 ## Standard Usage
@@ -22,7 +22,7 @@ When you want to compare two `AbstractArrays` or `DataFrames` with specific inte
 
 ```julia
 # Basic usage
-using Equivalence
+using Equality
 using DataFrames
 
 # Set up test data

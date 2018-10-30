@@ -1,4 +1,4 @@
-using Equivalence: isequivalent
+using Equality
 using DataFrames
 using Missings
 using Compat.Test

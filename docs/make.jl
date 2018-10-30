@@ -1,13 +1,13 @@
-using Documenter, Equivalence
+using Documenter, Equality
 
 makedocs(;
-    modules=[Equivalence],
+    modules=[Equality],
     format=:html,
     pages=[
         "Home" => "index.md",
     ],
-    repo="https://github.com/invenia/Equivalence.jl/blob/{commit}{path}#L{line}",
-    sitename="Equivalence.jl",
+    repo="https://github.com/invenia/Equality.jl/blob/{commit}{path}#L{line}",
+    sitename="Equality.jl",
     authors="Invenia Technical Computing Corporation",
     assets=[
         "assets/invenia.css",
@@ -16,7 +16,7 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/invenia/Equivalence.jl",
+    repo="github.com/invenia/Equality.jl",
     target="build",
     julia="1.0",
     deps=nothing,

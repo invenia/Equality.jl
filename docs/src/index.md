@@ -1,8 +1,8 @@
-# Equivalence.jl
+# Equality.jl
 
 ```@index
 ```
 
 ```@autodocs
-Modules = [Equivalence]
+Modules = [Equality]
 ```

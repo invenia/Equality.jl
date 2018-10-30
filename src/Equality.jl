@@ -1,7 +1,9 @@
-module Equivalence
+module Equality
 
-using DataFrames: AbstractDataFrame
+using DataFrames
 using Missings
+
+export isequivalent
 
 # Define a generic isequivalent function to compare all elements of an AbstractArray
 # using the equivalency eq functions below
